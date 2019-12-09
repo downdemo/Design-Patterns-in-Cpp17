@@ -1,0 +1,6 @@
+language: cpp
+dist: bionic
+script:
+  - cmake . -Bbuild
+  - cd build
+  - cmake --build .
